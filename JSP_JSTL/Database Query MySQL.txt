@@ -1,0 +1,7 @@
+create database sampleDB;
+
+use sampleDB;
+
+create table product (id int(10)PRIMARY KEY, pname varchar(45), quantity int(10));
+
+insert into product values (1,'Mouse',50),(2,'Keyboard',5),(3,'Monitor',34);
