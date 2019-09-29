@@ -1,0 +1,12 @@
+create database qadb;
+use qadb;
+create table quiz (qno varchar(5) PRIMARY KEY,question varchar(100), op1 varchar(50), op2 
+varchar(50), op3 varchar(50), op4 varchar(50), ans varchar(50));
+insert into quiz values('001','What is the capital of India??','New 
+Delhi','Kolkata','Chennai','Mumbai','New Delhi');
+insert into quiz values('002','Who was the First President of India??','Dr. Rajendra Prasad','Dr. S. 
+Radhakrishnan','Ram Nath Kovind','V. V. Giri','Dr. Rajendra Prasad');
+insert into quiz values('003','What is ORM','Object Ratio Mean','Object Rotation Measure','Object 
+Relation Mapping','Oracle Request Management','Object Relation Mapping');
+insert into quiz values('004','Unit of Energy is ___','Dozon','Kilo Meter ','Joul','Hertz','Joul');
+insert into quiz values('005',' --- is the smallest memory unit.','bit','byte','Kilo Byte','Giga Byte','bit');
