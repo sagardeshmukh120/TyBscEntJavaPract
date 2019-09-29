@@ -1,0 +1,4 @@
+create database logindb;
+use logindb;
+create table user (username varchar(20),password varchar(20),email varchar(20),
+country varchar(20));
