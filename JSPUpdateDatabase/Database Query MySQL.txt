@@ -1,0 +1,7 @@
+create database empdb
+
+use empdb;
+
+create table emp(empid varchar(10) PRIMARY KEY, ename varchar(50), salary varchar(50),age varchar(50) );
+
+insert into emp values('1','aaa','221234','11'), ('2','bbb','334567','22'),('3','ccc','44454','33'),('4','ddd','55123','44');
