@@ -1,0 +1,14 @@
+create database rrdb_25;
+use rrdb_25;
+
+Create table roombook(RoomId varchar(4) PRIMARY KEY, RoomType varchar(20), 
+charges varchar(20), cust varchar(20), mob varchar(20) , status varchar(10));
+
+
+
+insert into roombook values('1001','Delux',5000.00,'','','Not Booked');
+insert into roombook values('1002','Super Delux',7000.00,'','','Not Booked');
+insert into roombook values('1003','Suit',9500.00,'','','Not Booked');
+insert into roombook values('2001','Delux',5000.00,'','','Not Booked')
+insert into roombook values('2002','Super Delux',7000.00,'','','Not Booked')
+insert into roombook values('2003','Suit',9500.00,'','','Not Booked')
